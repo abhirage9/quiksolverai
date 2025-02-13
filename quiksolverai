@@ -11,3 +11,9 @@ Bash
 git add codemgic.yaml
 git commit -m "Added codemagic config"
 git push origin main 
+
+Bash 
+
+git add codemagic.yaml
+git commit -m "Fixed YAML error"
+git push qrigin main
