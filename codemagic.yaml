@@ -5,8 +5,12 @@ workflows:
     environment:
       java: 17
     scripts:
-      - name: Set up Gradle
-        script: chmod +x gradlew
+      - name: Update Gradle Wrapper
+        script: ./gradlew wrapper --gradle-version 8.0
+      - name: Clean project
+        script: ./gradlew clean
+      - name: Get dependencies
+        script: ./gradlew dependencies
       - name: Build APK
         script: ./gradlew assembleRelease
     artifacts:
@@ -15,5 +19,3 @@ workflows:
       email:
         recipients:
           - "lkanth07@gmail.com"
-
-Bash chmod +x gradlew 
