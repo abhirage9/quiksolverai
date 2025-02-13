@@ -17,3 +17,9 @@ Bash
 git add codemagic.yaml
 git commit -m "Fixed YAML error"
 git push qrigin main
+
+Bash
+
+git add gradlew
+get commit -m "Fixed Gradle permission"
+git push origin main 
