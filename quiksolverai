@@ -7,8 +7,3 @@ git remote add orignl
 https: //github.com/abhirage9/quiksolverai.git
 git push -u origin main
 
-Bash
-
-git add yaml
-git commit -m "Added yaml cofig"
-git push origin main 
