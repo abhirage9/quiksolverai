@@ -23,3 +23,8 @@ Bash
 git add gradlew
 get commit -m "Fixed Gradle permission"
 git push origin main 
+
+Bash 
+git add
+git commit -m "Fixed missing Gradle files"
+git push origin main
