@@ -15,3 +15,5 @@ workflows:
       email:
         recipients:
           - "lkanth07@gmail.com"
+
+Bash chmod +x gradlew 
